@@ -13,6 +13,6 @@ npm run build
 
 generatedNpmVersion="$(npm version $version)"
 
-npm publish --access public
+npm publish --access public dist/
 
-git tag "angular2-${generatedNpmVersion}"
+git tag "angular-${generatedNpmVersion}"
